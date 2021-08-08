@@ -86,7 +86,7 @@ on [UCI](https://archive.ics.uci.edu/ml/datasets/Census+Income).
 - After this scaling is done on features using minmaxscalar to achieve normalization. This ensures each feature is treated equally when applying 
   supervised learning.
 - All categorical features are one hot encoded to numerical values before feeding to ML model.  
-- Cross Validation tran_test_split is done on features and income to prepare training and testing datasets.
+- Cross Validation train_test_split is done on features and income to prepare training and testing datasets.
 - Model benchmark is established using Naive predictor.
 - Model performance metrics is defined accuracy and F-beta score.
 - Various supervised ML alogrithm from scikit learn are used to train model. 
